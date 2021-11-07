@@ -3,9 +3,8 @@ var pass = document.querySelector("#inputPassword") ;
 var butt = document.querySelector(".button-submit") ;
 var out = document.querySelector(".out-display") ;
 function loginPage(){
-    console.log("sjs") ;
     if(user.value==="isha" && pass.value==="isha"){
-        window.open("https://tindog-ritz.netlify.app/home","_self");
+        window.open("./home.html","_self");
     }else{
         out.innerHTML = "**Incorrect Credentials**" ;
     }
