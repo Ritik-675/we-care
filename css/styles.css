@@ -6,7 +6,7 @@
     position: relative;
 }
 #title{
-    background-color: #ff4c68;
+    background-color: #4682B4;
     color: #fff;
 }
 #headinghh{
@@ -34,20 +34,21 @@
 }
 #headinghh{
     text-align: left;
+    padding-right:10%;
 }
 .title-image{
     width: 60%;
-    transform: rotate(20deg);
+    /* transform: rotate(20deg); */
     position: absolute;
     left: 80px;
 }
 .big-ico{
     font-size: 4.5rem;
     margin-bottom: 1rem;
-    color: #ef8172;
+    color: #6eb5f0;
 }
 .big-ico:hover{
-    color: #ff4c68;
+    color: #4682B4;
 }
 .row{
     text-align: center;
@@ -80,7 +81,7 @@ h2{
 }
 #testimonials{
     text-align: center;
-    background-color: #ef8172;
+    background-color: #6eb5f0;
     color: #fff;
 }
 .testimonials-page{
@@ -89,7 +90,7 @@ h2{
     margin-right: 20px;
 }
 #press{
-    background-color: #ef8172;
+    background-color: #6eb5f0;
     text-align: center;
     padding-bottom: 3% ;
 }
@@ -113,11 +114,11 @@ h2{
 @media (max-width: 993px){
     .title-image{
         position: static;
-        transform: rotate(0);
+        margin-top: 15%;
     }
 }
 #cta{
-    background-color: #ff4c68;
+    background-color: #4682B4;
     padding: 5% 15% 0 15%;
     text-align: center;
     color: #fff !important;
