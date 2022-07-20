@@ -170,3 +170,18 @@ a{
   text-decoration: none;
   color: #fff;
 }
+@media screen and (max-width: 1550px) {
+  body{
+      width: 1600px;
+  }
+}
+@media screen and (max-width: 450px) {
+  body{
+      width: 400px;
+  }
+}
+@media screen and (max-width: 350px) {
+  body{
+      width: 300px;
+  }
+}
